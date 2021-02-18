@@ -1,9 +1,10 @@
 import Vue from 'vue'
 import App from './App' // 引入自定义组件
 // import "lib-flexible/flexible"
-import router from './router/index.js'
 
+import router from "./router"
 import 'lib-flexible'
+
 new Vue({
   el:'#root',
   // 注册局部组件
@@ -12,5 +13,5 @@ new Vue({
   // },
   // template: '<App/>',
   render:h=>h(App),
-  router//所有组件都能看到$router和$route和<router-link>,<router-view>
+  router//所有组件都可以看到$router和$route 和<ruter-view>
 })
