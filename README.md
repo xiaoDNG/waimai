@@ -3,9 +3,8 @@
 ## Project setup
 ```
 yarn install
-```
-
-### Compiles and hot-reloads for development
+```dsad
+###编译和热重装以进行开发
 ```
 yarn serve
 ```
@@ -22,3 +21,5 @@ yarn lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+修改更变成功了
